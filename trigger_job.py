@@ -1,6 +1,6 @@
 import jenkins
 import os
-import jenkinsapi
+
 
 jenkins_url = jenkins.Jenkins("http://172.31.10.31:8080/", username=os.environ.get('new_jenkins_usr'), password=os.environ.get('new_jenkins_pass'))
 
