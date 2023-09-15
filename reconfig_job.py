@@ -18,7 +18,7 @@ def trigger_build():
     <hudson.model.ChoiceParameterDefinition>
         <name>{parameter_name}</name>
         <description>{parameter_description}</description>
-        <choices>{choices}</choices>
+        <choices class="java.lang.String">{choices}</choices>
         <defaultValue>{default_value}</defaultValue>
     </hudson.model.ChoiceParameterDefinition>
     '''
